@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "74b2fa20-8a69-4402-a6d6-73d214b849dc",
+		"name": "Spring Config",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24824952"
+	},
+	"item": [
+		{
+			"name": "connect 2 database",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8088/Home/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"Home",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
